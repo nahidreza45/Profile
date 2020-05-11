@@ -15,12 +15,12 @@ body {
     width:75%;
     padding-left:15%;
 }
-.primary-button{
-    font-family:Courier New;
+#primary-buttonfb{
+    font-family:serif;
     text-align:center;
     color:white;
     font-weight:bold;
-    background-color:#8845f4;
+    background-color:#4267B2;
     padding:13px 30px 13px 30px;
     border-radius:10px;
     text-decoration:none;
@@ -66,8 +66,32 @@ h1 {
 #ph{
     text-decoration:none;
     font-weight:bold;
-
 }
+a:hover {
+    font-size:150%;
+}
+#primary-buttonin{
+    font-family:serif;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    background-image:linear-gradient(to right,#DD2A7B,#8134AF) ;
+    padding:13px 30px 13px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    margin-right:25px;
+}
+#primary-buttongo{
+    font-family:serif;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    background-color:#D44638;
+    padding:13px 30px 13px 30px;
+    border-radius:10px;
+    text-decoration:none;
+}    
+        
 
 
 
