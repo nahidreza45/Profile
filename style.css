@@ -14,6 +14,7 @@ body {
 .side-image{
     width:75%;
     padding-left:15%;
+    padding-top:20px ;
 }
 #primary-buttonfb{
     font-family:serif;
@@ -75,7 +76,7 @@ a:hover {
     text-align:center;
     color:white;
     font-weight:bold;
-    background-image:linear-gradient(to right,#DD2A7B,#8134AF) ;
+    background-image:linear-gradient(to left,#FCAF45,#F56040,#E1306C,#C13584,#833AB4) ;
     padding:13px 30px 13px 30px;
     border-radius:10px;
     text-decoration:none;
