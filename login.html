@@ -3,20 +3,26 @@
     <head>
         <title> Log In page </title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css" media="all">
+            body{
+                margin: 0;
+                padding: 0;
+            }
+        </style>
     </head>
     <body>
-        <div class="log-head">
-            <h1> Nahid Reza Web Security </h1>
+        <div class="login-head">
+            <h1>Nahid Reza Web Security</h1>
         </div>
         <div class="input">
             <h2> <strong> Log In to get Admin access  </strong></h2>
-            <input type="text" id="user-pass" placeholder="User Name"> </input>
-            <input type="password" id="user-pass" placeholder="Password"> </input>
+            <input type="text" id="user-pass" placeholder="User Name" name="username" required> </input>
+            <input type="password" id="user-pass" placeholder="Password" name="password" required> </input>
             <br><br>
             <a id="login-btn" href="404.html"> Log In </a>
         </div>
     </body> 
-    <footer class="log-foot"> 
+    <footer class="foot login-page-foot"> 
         ©Nahid Reza|A Programming Hero Initiative 
     </footer>
 </html>
