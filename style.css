@@ -88,7 +88,7 @@ body{
     margin-bottom: 10px;
     padding-bottom: 10px;
     font-weight: 700;
-    border-bottom: 5px solid #868282;
+    
 }
 #ph{
     font-weight: 100;
@@ -104,104 +104,27 @@ body{
 .foot{
     color: black;
     margin-top:25px;
-    text-align: center;
     padding: 20px;
+    text-align: center;
     font-weight: 700;
 }
 
 /*End Index */
 
-/*Start Login page */
-
-.login-head{
-    font-size: 35px;
-    text-align: center;
-    background: #8E9DAB;
-    padding: 70px 0px;
-    color: white;
-}
-.input{
-    background: #8E9DAB;
-    padding: 50px;
-    border-radius: 25px;
-    text-align: center;
-    margin: 0 50px;
-    font-size: 25px;
-    position: absolute;
-    top:40%;
-    
-}
-.input h2{
-    margin-bottom: 30px;
-    color: #484848;
-    font-size: 35px;
-    color: white;
-}
-.input input{
-    font-size: 30px;
-    padding: 5px 15px;
-    margin: 5px;
-    border-radius: 15px;
-    outline: none;
-    text-align: center;
-    border: 3px solid white;
-    box-shadow: 0 0 15px #888888;;
-}
-.input input:hover{
-    background:#79e1fbc6 ;
-}
-#login-btn{
-    text-decoration: none;
-    background: #9b8ef8c9;
-    padding: 8px 35px;
-    font-size: 35px;
-    box-shadow: 0 0 15px #888888;
-    color: white;
-    border: 3px solid white;
-    border-radius: 15px;
-    font-family:"montserrat";
-    background:#588fbf;
-    font-weight: bold;
-}
-.login-page-foot{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-/*End login page*/
+/* Start table */
 
 
-
-/* Start eror page */
-
-
-.page-not-found{
-    background: #c5c5c3;
+.table{
+    margin: 0 auto;
+    background: #a5d8e4;
+    font-size: 17px;
+    border-radius: 3px;
 }
-#page-not-found-text{
-    font-size: 80px;
-    position: absolute;
-    top:40%;
-    bottom: 60%;
-    left: 10%;
-    right: 10%;
-    color: #121212b7;
+.table th,td{
+    padding:5px 10px;
+    font-family: Monospace;
+    border-radius: 3px;
 }
-#page-not-found-link{
-    position: absolute;
-    top: 25px;
-    left: 25px;
+.table th{
+    font-size: 21px;
 }
-#home-btn{
-    font-size: 40px;
-    padding: 10px;
-    border: 3px solid white;
-    background: #737156e8;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 20px black;
-    outline: none;
-}
-
-
